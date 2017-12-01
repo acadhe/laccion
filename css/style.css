@@ -1,0 +1,479 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    /*background-color: #61122f;*/
+    background: url('../img/giz-logo.png') no-repeat;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+}
+.navbar-toggle{
+    background-color:#03ff86;
+}
+.navbar-toggle .icon-bar{
+    height: 4px;
+}
+#header-nav {
+    background-color: #4531c7; 
+    border-radius: 0;
+    border: 0; 
+}
+#logo-img{
+    background:url('') no-repeat;
+    background-size:contain;
+    width: 100px;
+    height: 100px;
+    margin: 0px 15px 10px 0px;    
+}
+#logo-img:hover{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.navbar-brand{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-brand h1{
+    color: rgba(255,255,255,.6);
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #03ff86;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration:none;
+}
+.navbar-brand p{
+    color: white;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px rgba(1,1,1,.7);
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: .50;
+    margin-left: 5px;
+}
+.navbar-brand p span{
+    vertical-align: middle;
+}
+#nav-list{
+    margin-top: 0px;
+}
+#nav-list a {
+    color: #03ff86;
+    text-align:center;
+    font-size: 1.1em;
+}
+#nav-list a:hover {
+    color: white;
+    text-shadow: 0px .5px .5px  rgba(1,1,1,.7);
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+} 
+#btitle {
+        font-weight: italic;
+}
+#btitle > span{
+        font-size: 1.0em;
+        color: black;
+        font-weight: italic;
+        background-color: white;
+        line-height: 1.3;
+}
+#btitle > span > a{
+        font-size: 1.0em;
+        color: #03ff86;
+        font-weight: italic;
+        background-color: white;
+        line-height: 1.3;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1.5px solid #ccc;
+}
+.row > a {
+    height: 300px;
+    /*background-color: rgba(0, 0, 0, .8);*/
+    background-color: rgba(255, 255, 255, .7);
+    border: 1px solid gray;
+    text-decoration: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    font-style: none;   
+}
+.row a:hover, .row  a:focus {
+    border: 2px solid #03ff86;
+    background-color: #4531c7;
+    text-decoration:none;
+    color: white;
+}
+.row > #expert {
+    height: 300px;
+    /*background-color: rgba(0, 0, 0, .8);*/
+    background-color: rgba(255, 255, 255, .7);
+    border: 1px solid gray;
+    text-decoration: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    font-style: none;   
+}
+.row > #expert:hover, .row > #expert:focus {
+    border: 1px solid black;
+    background-color: #4531c7;
+    text-decoration:none;
+    }
+
+h4{
+    font-size: 2em;
+    height: 50%;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: black;
+}
+h5{
+    font-size: 1.7em;
+    color: #4531c7;
+}
+.row p{
+    font-size: 1.2em;
+    color: gray;
+}
+.row span{
+    font-size: 1em;
+    font-style: italic;
+    color: gray;
+}
+.row div{
+    border: 1px solid gray;
+}
+
+.row a:hover > h5, .row  a:focus > h5 {
+    color: white;
+}
+
+.row a:hover > p, .row  a:focus > p, .row a:hover > span, .row  a:focus > span{
+    color: white;
+}
+
+.row #expert:hover > h5, .row  #expert:focus > h5 {
+    color: white;
+}
+
+.row #expert:hover > p, .row  #expert:focus > p, .row #expert:hover > span, .row  #expert:focus > span{
+    color: white;
+}
+
+.row a:hover > h4, .row  a:focus > h4{
+    color: rgba(255,255,255,.6);
+    text-shadow: 1px 1px 1px #03ff86;
+}
+.row #expert:hover > h4, .row  #expert:focus > h4 {
+    color: rgba(255,255,255,.6);
+    text-shadow: 1px 1px 1px #03ff86;
+}
+.container{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+h2{
+    color: #4531c7;
+    text-shadow: 1px 1px 1px #03ff86;
+}
+.resources{
+    padding: 6px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    font-size: 1em;
+    border-radius: 7px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: #4531c7;
+    width: 100px;
+    max-height: 40px;
+}
+.showme{ 
+    display: none;
+}
+.expert1:hover > .showme,
+.expert2:hover > .showme,
+.expert3:hover > .showme,
+.expert5:hover > .showme,
+.expert6:hover > .showme,
+.expert7:hover > .showme,
+.expert8:hover > .showme,
+.expert9:hover > .showme,
+.expert11:hover > .showme,
+.expert12:hover > .showme,
+.expert13:hover > .showme{
+    display : block;
+    z-index: 90;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    left: 100%;
+    border: 2px solid #03ff86;
+    overflow: scroll;
+    font-size: 1em;
+}
+.expert4:hover > .showme,
+.expert10:hover > .showme{
+    display : block;
+    z-index: 90;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    top: 100%;
+    left: 0;
+    border: 2px solid #03ff86;
+    overflow: scroll;
+    font-size: 1em;
+}
+#calendario2{
+    width: 100%;
+    height: 600px;
+}
+.footer-basic-centered{
+    background-color: #4531c7;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 30px;
+    margin-top: 80px;
+}
+.footer-basic-centered .footer-company-motto{
+    color:  #03ff86;
+    font-size: 1em;
+    margin: 0;
+}
+.footer-basic-centered .footer-company-name{
+    color:  #03ff86;
+    font-size: .8em;
+    margin: 0;
+}
+.footer-basic-centered .footer-links{
+    list-style: none;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0;
+}
+.footer-basic-centered .footer-links a{
+    display:inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+footer{
+    bottom: 0;
+}
+/*large devices*/
+@media (min-width: 1200px){
+
+}
+/*medium devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .navbar-brand h1{        
+        font-size: 1.8em;
+        line-height: 1;
+    }   
+    h4{
+    font-size: 1.7em;
+    height: 50%;
+    line-height: 1.3;
+    }
+    h5{
+        font-size: 1.5em;
+    }
+    .row p{
+        font-size: 1.1em;
+        color: gray;
+    }
+    .row span{
+        font-size: .9em;
+        font-style: italic;
+        color: gray;
+    }
+    .resources{
+        font-size: .8em;
+        border-radius: 7px;
+        border: 1px solid white;
+        color: white;
+        background-color: #4531c7;
+        width: 80px;
+        max-height: 40px;
+    }
+    .showme{ 
+         display: none;
+    }
+    .expert1:hover > .showme,
+    .expert2:hover > .showme,
+    .expert3:hover > .showme,
+    .expert5:hover > .showme,
+    .expert6:hover > .showme,
+    .expert7:hover > .showme,
+    .expert8:hover > .showme,
+    .expert9:hover > .showme,
+    .expert11:hover > .showme,
+    .expert12:hover > .showme,
+    .expert13:hover > .showme{
+        display: none;
+    }
+    .expert4:hover > .showme,
+    .expert10:hover > .showme{
+        display: none;
+    }
+    /*.row div {
+    margin-bottom: 15px;
+    }*/
+
+}
+/*small devices*/
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-brand{
+        height: 100px;
+    }
+    .navbar-brand h1{
+        font-size: 1.8em;
+        line-height: 1;
+    }
+    .row a{
+        height: 300px;
+    }
+    h4{
+    font-size: 1.7em;
+    height: 50%;
+    line-height: 1;
+    }
+    h5{
+        font-size: 1.5em;
+    }
+    .row p{
+        font-size: 1.1em;
+        color: gray;
+    } 
+    .showme{ 
+         display: none;
+    }
+    .expert1:hover > .showme,
+    .expert2:hover > .showme,
+    .expert3:hover > .showme,
+    .expert5:hover > .showme,
+    .expert6:hover > .showme,
+    .expert7:hover > .showme,
+    .expert8:hover > .showme,
+    .expert9:hover > .showme,
+    .expert11:hover > .showme,
+    .expert12:hover > .showme,
+    .expert13:hover > .showme{
+        display: none;
+    }
+    .expert4:hover > .showme,
+    .expert10:hover > .showme{
+        display: none;
+    }  
+}
+   /* .row div {
+    margin-bottom: 15px;
+    }
+    .container .vp{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    }*/
+
+/*extra small devices*/
+@media (max-width: 767px) {
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        font-size: 1.2em;
+        line-height: 1;
+    }
+    .navbar-brand p{
+        font-size: .8em;
+        margin-top: 12px;
+    }
+    #collapsable-nav a{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    #nav-list li:last-child a {
+    margin: 0px 0px 0px 0px;
+    }
+    .resources{
+        font-size: .8em;
+        margin-top: 7px;    
+        color: white;
+        background-color: #4531c7;
+        width: 80px;
+        max-height: 30px;
+    }    
+    .row a{
+        max-height: 200px;
+    }
+    #expert {
+        max-height: 200px;
+    }
+    h4{
+    font-size: 1.6em;
+    height: 40%;
+    line-height: 1.3;
+    }
+    h5{
+        font-size: 1.2em;
+    }
+    .showme{ 
+         display: none;
+    }
+    .expert1:hover > .showme,
+    .expert2:hover > .showme,
+    .expert3:hover > .showme,
+    .expert5:hover > .showme,
+    .expert6:hover > .showme,
+    .expert7:hover > .showme,
+    .expert8:hover > .showme,
+    .expert9:hover > .showme,
+    .expert11:hover > .showme,
+    .expert12:hover > .showme,
+    .expert13:hover > .showme{
+        display: none;
+    }
+    .expert4:hover > .showme,
+    .expert10:hover > .showme{
+        display: none;
+    }
+    .footer-basic-centered{
+        padding: 10px;
+    }
+
+    .footer-basic-centered .footer-company-motto{
+        font-size: .8em;
+    }
+
+    .footer-basic-centered .footer-company-name{
+        font-size: .8em;
+    }
+
+    .footer-basic-centered .footer-links{
+        font-size: .8em;
+    }
+
+    .footer-basic-centered .footer-links a{
+        line-height: 1.8;
+    }
+}
